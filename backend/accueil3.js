@@ -1,9 +1,3 @@
-//const numberOfPassengers = 10;
-//for (let i = 0; i < numberOfPassengers; i++) {
-//  console.log("Passager n°"+ i+" embarqué !");
-//}
-
-//console.log("Tous les passagers sont embarqués !");
 let fetchValue=[];
 let content = document.getElementById("content");
 let fetchContent = fetch("http://localhost:3000/api/cameras")
@@ -39,7 +33,7 @@ let fetchContent = fetch("http://localhost:3000/api/cameras")
         '<h5 class="card-title">Produit ' +
         i +
         "</h5>" +
-        '<p class="card-text">Texte coucou ' +
+        '<p class="card-text">Texte ' +
         i +
         "</p>" +
         "</div>" +
